@@ -20,7 +20,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex justify-end">
-        <h2 className="bg-white text-black rounded-md ">Sign up</h2>
+        <h2 className="bg-white text-black rounded-md justify-center">Sign up</h2>
       </div>
     </div>
   );
