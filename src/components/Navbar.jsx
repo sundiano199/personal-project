@@ -1,26 +1,31 @@
 import React from 'react'
 
 
+
 const Navbar = () => {
   return (
-    <div className="bg-black py-10 flex pt-[20px] pb-[21px] mx-auto px-[100px] justify-between">
-      <div className="flex ">
-        <img src="/files/file.png" alt="" className="" />
+    <div className="bg-black py-10 flex w-[1440px] h-[106px]  pt-[20px] pb-[21px] mx-auto px-[100px]  justify-between border border-gray-200 border-b-[1px] max-w-full ">
+      <div className=' gap-[33px] flex '>
+        <div className="flex items-center justify-center border-[1px]  border-gray-600 rounded-xl gap-[7px] py-[17px] px-[22px]">
+          <img src="/files/file.png" alt="" className="w-[28px] h-[28px] flex justify-center items-center" />
+          <div>
+            <h1 className="text-white ">Liz.com</h1>
+          </div>
+        </div>
         <div>
-          <h1 className="text-white">Liz.com</h1>
+          <ul className="flex items-center justify-center text-white gap-[40px]  border-[1px] py-[18px] px-[22px] border-gray-600 rounded-xl ">
+            <li className="text">Home</li>
+            <li>Projects</li>
+            <li>Resources</li>
+            <li>Blogs</li>
+            <li>About</li>
+          </ul>
         </div>
       </div>
-      <div>
-        <ul className="flex text-white gap-[40px] pt-[] ml-[-400px]">
-          <li className="text">Home</li>
-          <li>Projects</li>
-          <li>Resources</li>
-          <li>Blogs</li>
-          <li>About</li>
-        </ul>
-      </div>
-      <div className="flex justify-end">
-        <h2 className="bg-white text-black rounded-md justify-center">Sign up</h2>
+      <div className="flex items-center justify-center">
+        <button className="bg-white text-black rounded-3xl px-[29px] py-[10px] w-[126px] h-[50px] text-[18px]  flex items-center justify-center ">
+          Sign up
+        </button>
       </div>
     </div>
   );

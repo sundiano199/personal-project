@@ -14,7 +14,7 @@ import Footer from './Components/Footer'
 const App = () => {
   return (
     <div>
-      <Navbar className='bg-black'/>
+      <Navbar />
       {/* <Hero />
       <Sponsors />
       <Speech />
@@ -25,9 +25,8 @@ const App = () => {
       <Team />
       <Newsletter />
       <Footer /> */}
-      
     </div>
-  )
+  );
 }
 
 export default App
