@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
+import Hero from './components/Hero'
 import Sponsors from './Components/Sponsors'
 import Speech from './Components/Speech'
 import PoweringFuture from './Components/PoweringFuture'
@@ -15,8 +15,8 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      {/* <Hero />
-      <Sponsors />
+      <Hero />
+      {/* <Sponsors />
       <Speech />
       <PoweringFuture />
       <SaterliteLauch />

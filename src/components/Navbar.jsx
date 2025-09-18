@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="bg-black py-10 flex w-[1440px] h-[106px]  pt-[20px] pb-[21px] mx-auto px-[100px]  justify-between border border-gray-200 border-b-[1px] max-w-full ">
+    <div className="bg-black py-10 flex w-[1440px] h-[106px]  pt-[20px] pb-[21px] mx-auto px-[100px]  justify-between border-gray-200 border-b max-w-full ">
       <div className=' gap-[33px] flex '>
         <div className="flex items-center justify-center border-[1px]  border-gray-600 rounded-xl gap-[7px] py-[17px] px-[22px]">
           <img src="/files/file.png" alt="" className="w-[28px] h-[28px] flex justify-center items-center" />
