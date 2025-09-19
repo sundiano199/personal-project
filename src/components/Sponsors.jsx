@@ -2,7 +2,9 @@ import React from 'react'
 
 const Sponsors = () => {
   return (
-    <div>Sponsors</div>
+    <div>
+      <img src="/files/sponsors-frame.png" alt="" className='bg-black' />
+    </div>
   )
 }
 

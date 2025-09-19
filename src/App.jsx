@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
 import Hero from './components/Hero'
-import Sponsors from './Components/Sponsors'
+import Sponsors from './components/Sponsors'
 import Speech from './Components/Speech'
 import PoweringFuture from './Components/PoweringFuture'
 import SaterliteLauch from './Components/SaterliteLauch'
@@ -16,12 +16,12 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      {/* <Sponsors />
+      <Sponsors />
       <Speech />
       <PoweringFuture />
       <SaterliteLauch />
       <MoonWatch />
-      <GlobalImpact />
+      {/* <GlobalImpact />
       <Team />
       <Newsletter />
       <Footer /> */}
