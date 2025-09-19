@@ -2,7 +2,7 @@ import React from 'react'
 
 const MoonWatch = () => {
   return (
-    <div className="bg-black px-[100px] grid grid-cols-2 justify-between">
+    <div className="bg-black px-[100px] grid grid-cols-2 justify-between gap-5">
       <div className="py-[39px] pr-[72px] manrope-regular">
         <h1 className="text-white text-5xl adamina-regular pr-[125px] leading-snug">
           Moon watch view with NASA
@@ -28,7 +28,7 @@ const MoonWatch = () => {
         </div>
       </div>
       <div>
-        <img src="/files/moon.png" alt="" />
+        <img src="/files/moon.png" alt="" className='w-full'/>
       </div>
     </div>
   );

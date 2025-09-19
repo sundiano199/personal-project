@@ -1,13 +1,15 @@
-@import "tailwindcss";
+
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
 .adamina-regular {
     font-family: "Adamina", serif;
     font-weight: 400;
     font-style: normal;
   }
   
-.manrope-regular {
+.manrope-regular::placeholder {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -16,4 +18,8 @@
 :root {
   --faded-white: #B1B1B1; /* custom variable */
   --shadow-color: #0F0F0F;
+}
+.faded-color::placeholder {
+  color: var(--faded-white);
+  font-size: 14px;
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const PoweringFuture = () => {
   return (
@@ -19,7 +19,7 @@ const PoweringFuture = () => {
 
       <div className="grid grid-cols-3 bg-black px-[100px] ">
         <div className="p-[20px]  border-[1px]  border-gray-600 rounded-tl-2xl rounded-bl-2xl">
-          <img src="/files/QA1.png" alt="" />
+          <img src="/files/QA1.png" alt="" className="w-full" />
           <h2 className="text-white text-xl adamina-regular py-2">
             Space & Saterlite Tech
           </h2>
@@ -28,7 +28,7 @@ const PoweringFuture = () => {
           </p>
         </div>
         <div className="p-[20px] border-[1px]  border-gray-600">
-          <img src="/files/QA2.png" alt="" className='w-full'/>
+          <img src="/files/QA2.png" alt="" className="w-full" />
           <h2 className="text-white text-lg adamina-regular py-2">
             Quantum Processing
           </h2>
@@ -37,7 +37,7 @@ const PoweringFuture = () => {
           </p>
         </div>
         <div className="p-[20px] border-[1px]  border-gray-600 rounded-tr-2xl rounded-br-2xl">
-          <img src="/files/QA3.png" alt="" />
+          <img src="/files/QA3.png" alt="" className="w-full" />
           <h2 className="text-white text-lg adamina-regular py-2">
             Biotech Integration
           </h2>
@@ -48,6 +48,6 @@ const PoweringFuture = () => {
       </div>
     </div>
   );
-}
+};
 
-export default PoweringFuture
+export default PoweringFuture;

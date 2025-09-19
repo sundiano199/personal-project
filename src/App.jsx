@@ -8,7 +8,7 @@ import SaterliteLauch from './Components/SaterliteLauch'
 import MoonWatch from './Components/MoonWatch'
 import GlobalImpact from './Components/GlobalImpact'
 import Team from './Components/Team'
-import Newsletter from './Components/Newsletter'
+import Newsletter from './components/Newsletter'
 import Footer from './Components/Footer'
 
 const App = () => {
@@ -21,10 +21,10 @@ const App = () => {
       <PoweringFuture />
       <SaterliteLauch />
       <MoonWatch />
-      {/* <GlobalImpact />
+      <GlobalImpact />
       <Team />
       <Newsletter />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
