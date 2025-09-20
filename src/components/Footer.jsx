@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black manrope-regular pt-[130px]">
+    <div className="bg-black manrope-regular pt-[130px] pb-[27px] ">
       <div className="grid grid-cols-[1.8fr_1fr_1fr_1fr]  text-[var(--faded-white)] px-[100px] gap-5 ">
-        <div className="border-[1px]  border-gray-800 rounded-xl col-span-1.5">
+        <div className="border-[1px]  border-gray-900  rounded-3xl col-span-1.5">
           <div className=" flex gap-[7px] py-[17px] px-[30px]">
             <img
               src="/files/file.png"
@@ -26,43 +26,45 @@ const Footer = () => {
           </p>
         </div>
         <div className=" text-center  flex flex-col gap-2 ">
-          <p className="border-[1px] border-gray-800 rounded-xl py-7">Home</p>
-          <p className="border-[1px] border-gray-800 rounded-xl py-7">
+          <p className="border-[1px] border-gray-900 rounded-3xl py-7">Home</p>
+          <p className="border-[1px] border-gray-900 rounded-3xl py-7">
             Project
           </p>
-          <p className="border-[1px] border-gray-800 rounded-xl py-7">Blogs</p>
-          <p className="border-[1px] border-gray-800 rounded-xl py-7">About</p>
+          <p className="border-[1px] border-gray-900 rounded-3xl py-7">Blogs</p>
+          <p className="border-[1px] border-gray-900 rounded-3xl py-7">About</p>
         </div>
         <div className="text-center flex flex-col gap-2 ">
-          <p className="border-[1px] border-gray-800 rounded-xl py-7">Terms</p>
-          <p className="border-[1px] border-gray-800 rounded-xl py-7">
+          <p className="border-[1px] border-gray-900 rounded-3xl py-7">Terms</p>
+          <p className="border-[1px] border-gray-900 rounded-3xl py-7">
             Privacy Notice
           </p>
-          <p className="border-[1px] border-gray-800 rounded-xl py-7">
+          <p className="border-[1px] border-gray-900 rounded-3xl py-7">
             Legal Policies
           </p>
-          <p className="border-[1px] border-gray-800 rounded-xl py-7">
+          <p className="border-[1px] border-gray-900 rounded-3xl py-7">
             Partnerships
           </p>
         </div>
         {/* icons here */}
-        <div className="tex-center flex flex-col gap-2 ">
-          <div className="border-[1px] border-gray-800 rounded-xl py-7">
-            <img src="/files" alt="" />
+        <div className="text-center flex flex-col gap-2 ">
+          <div className="border-[1px] border-gray-900 rounded-3xl py-7 flex items-center justify-center">
+            <img src="/files/twitter.png" alt="" />
           </div>
-          <div className="border-[1px] border-gray-800 rounded-xl py-7">
-            <img src="/files" alt="" />
+          <div className="border-[1px] border-gray-900 rounded-3xl py-7 flex items-center justify-center">
+            <img src="/files/f.png" alt="" />
           </div>
-          <div className="border-[1px] border-gray-800 rounded-xl py-7">
-            <img src="/files" alt="" />
+          <div className="border-[1px] border-gray-900 rounded-3xl py-7 flex items-center justify-center">
+            <img src="/files/in.png" alt="" />
           </div>
-          <div className="border-[1px] border-gray-800 rounded-xl py-7">
-            <img src="/files" alt="" />
+          <div className="border-[1px] border-gray-900 rounded-3xl py-7 flex items-center justify-center">
+            <img src="/files/linkedin.png" alt="" />
           </div>
         </div>
       </div>
-      <div className="text-center text-[var(--faded-white)] text-xs">
-        <p>Copyright Quickrooms 2025</p>
+      <div className="text-center text-[var(--faded-white)] text-xs pt-[20px] rounded-xl mx-[100px] ">
+        <p className="py-[8px] rounded-xl border-[1px] border-gray-900 ">
+          Copyright Quickrooms 2025
+        </p>
       </div>
     </div>
   );

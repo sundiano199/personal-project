@@ -11,6 +11,7 @@ import Team from './Components/Team'
 import Newsletter from './components/Newsletter'
 import Footer from './Components/Footer'
 
+
 const App = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const App = () => {
       <MoonWatch />
       <GlobalImpact />
       <Team />
+      
       <Newsletter />
       <Footer />
     </div>
