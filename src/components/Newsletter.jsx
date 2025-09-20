@@ -3,9 +3,9 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Newsletter = () => {
   return (
-    <div className="bg-black px-[357px] pt-[100px]">
+    <div className="bg-black px-4 md:px-[357px] pt-[100px]">
       <div className="text-center ">
-        <h1 className="adamina-regular  text-white text-3xl">
+        <h1 className="adamina-regular  text-white text-2xl">
           Stay in the Loop, Beyond Earth
         </h1>
         <p className="manrope-regular text-sm text-[var(--faded-white)] py-5">
@@ -25,7 +25,7 @@ const Newsletter = () => {
 
         <div className='absolute top-2 right-24'>
           <button className="flex justify-center items-center bg-white rounded-[20px] py-[8px] px-[15px] gap-[10px]">
-            <p className="text-black text-sm manrope-regular">Get Started</p>
+            <p className="hidden md:block text-black text-sm manrope-regular">Get Started</p>
             <div>
               <MdArrowOutward className="bg-black text-white w-full rounded-[14px] text-2xl p-[4px] border-white border-[1px] shadow-[0_2px_10px_#0F0F0F]" />
             </div>

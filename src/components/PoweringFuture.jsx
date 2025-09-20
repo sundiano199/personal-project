@@ -2,23 +2,23 @@ import React from "react";
 
 const PoweringFuture = () => {
   return (
-    <div>
+    <div className="bg-black">
       <div className="text-center bg-black pb-10">
         <div className="pb-4">
-          <h2 className="text-white adamina-regular text-4xl px-[373px] leading-snug">
+          <h2 className="text-white adamina-regular text-xl pt-10 md:pt-0 md:text-4xl px-4 md:px-[373px] leading-snug">
             Powering the future with quantum automation
           </h2>
         </div>
         <div>
-          <p className="text-[var(--faded-white)] manrope-regular text-sm px-[440px] leading-snug">
+          <p className="text-[var(--faded-white)] manrope-regular text-sm px-4 md:px-[440px] leading-snug">
             We innovate at the forefront of technology, crafting solutions that
             shape the future.
           </p>
         </div>
       </div>
 
-      <div className="grid grid-cols-3 bg-black px-[100px] ">
-        <div className="p-[20px]  border-[1px]  border-gray-600 rounded-tl-2xl rounded-bl-2xl">
+      <div className="md:grid grid-cols-3 bg-black px-4 md:px-[100px] mx-4 md:mx-0 md:border-0 border-[1px] border-gray-600 rounded-2xl ">
+        <div className="p-2 py-3 md:p-[20px]  md:border-[1px]  border-gray-600 rounded-tl-2xl rounded-bl-2xl ">
           <img src="/files/QA1.png" alt="" className="w-full" />
           <h2 className="text-white text-xl adamina-regular py-2">
             Space & Saterlite Tech
@@ -27,7 +27,8 @@ const PoweringFuture = () => {
             Connecting earth through advanced space tech
           </p>
         </div>
-        <div className="p-[20px] border-[1px]  border-gray-600">
+        
+        <div className="p-2 md:p-[20px] md:border-[1px]  border-gray-600">
           <img src="/files/QA2.png" alt="" className="w-full" />
           <h2 className="text-white text-lg adamina-regular py-2">
             Quantum Processing
@@ -36,7 +37,7 @@ const PoweringFuture = () => {
             Next-gen speed through quantum breakthroughs
           </p>
         </div>
-        <div className="p-[20px] border-[1px]  border-gray-600 rounded-tr-2xl rounded-br-2xl">
+        <div className="p-2 md:p-[20px] md:border-[1px]  border-gray-600 rounded-tr-2xl rounded-br-2xl">
           <img src="/files/QA3.png" alt="" className="w-full" />
           <h2 className="text-white text-lg adamina-regular py-2">
             Biotech Integration

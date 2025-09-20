@@ -2,8 +2,8 @@ import React from 'react'
 
 const Speech = () => {
   return (
-    <div className="bg-black px-[187px] py-[170px]">
-      <h1 className="text-center  text-[var(--faded-white)] text-5xl leading-snug adamina-regular">
+    <div className="bg-black px-4 py-3 md:px-[187px] md:py-[170px]">
+      <h1 className="text-center  text-[var(--faded-white)] text-3xl md:text-5xl leading-snug adamina-regular">
         Empowering the <span className="text-white">next era</span> of cosmic
         discovery through <span className="text-white">seamless</span>,{" "}
         <span className="text-white">secure</span>, and

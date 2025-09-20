@@ -2,9 +2,9 @@ import React from 'react'
 
 const MoonWatch = () => {
   return (
-    <div className="bg-black px-[100px] grid grid-cols-2 justify-between gap-5">
+    <div className="bg-black px-4 md:px-[100px] flex  flex-col-reverse md:grid grid-cols-2 justify-between gap-5">
       <div className="py-[39px] pr-[72px] manrope-regular">
-        <h1 className="text-white text-5xl adamina-regular pr-[125px] leading-snug">
+        <h1 className="text-white text-5xl adamina-regular md:pr-[125px] leading-snug">
           Moon watch view with NASA
         </h1>
         <p className="text-[var(--faded-white)] manrope-regular text-sm py-4 leading-snug">

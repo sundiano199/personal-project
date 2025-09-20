@@ -2,12 +2,12 @@ import React from 'react'
 
 const SaterliteLauch = () => {
   return (
-    <div className="bg-black grid grid-cols-2 px-[100px] pt-22 gap-5">
+    <div className="bg-black md:grid grid-cols-2 px-4 md:px-[100px] pt-22 gap-5">
       <div>
         <img src="/files/k2-saterlight.png" alt="" className='w-full' />
       </div>
-      <div className="py-[39px] pl-[72px] manrope-regular">
-        <h1 className="text-white text-5xl adamina-regular pr-[125px] leading-snug">
+      <div className="py-[39px] md:pl-[72px] manrope-regular">
+        <h1 className="text-white text-5xl adamina-regular md:pr-[125px] leading-snug">
           K2-11 Satellite Launch
         </h1>
         <p className="text-[var(--faded-white)] manrope-regular text-sm py-4 leading-snug">

@@ -2,7 +2,7 @@ import React from 'react'
 
 const GlobalImpact = () => {
   return (
-    <div className=" bg-black px-[188px] pt-[85px]">
+    <div className=" bg-black px-4 md:px-[188px] pt-[85px]">
       <div>
         <h1 className="text-white text-4xl text-center adamina-regular ">
           Creating global impact

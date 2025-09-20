@@ -4,8 +4,8 @@ import { useState } from "react";
 
 const Team = () => {
   return (
-    <div className="bg-black px-[100px] text-center pt-3">
-      <div className="px-[271px]">
+    <div className="bg-black px-4 md:px-[100px] text-center pt-3">
+      <div className="md:px-[271px]">
         <h1 className="text-white adamina-regular text-2xl">
           Our Incredible team
         </h1>
@@ -14,7 +14,7 @@ const Team = () => {
           results every day.
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-3 pt-10 mx-auto">
+      <div className="md:grid grid-cols-4 gap-3 pt-10 mx-auto">
         {astronuts.map((astronut) => {
           return (
             <div
@@ -24,7 +24,7 @@ const Team = () => {
               <img
                 src={astronut.img}
                 alt=""
-                className=" w-full "
+                className=" w-full  "
               />
               <h1 className="pt-[20px] text-white adamina-regular">
                 {astronut.name}
