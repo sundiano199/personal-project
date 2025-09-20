@@ -5,9 +5,9 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-2 bg-black mx-auto gap-[37px] px-[100px] ">
+    <div className="md:grid grid-cols-2 bg-black mx-auto gap-[37px] px-4 md:px-[100px] ">
       <div className="">
-        <div className="flex mt-[139px]  gap-[10px] py-[3px] px-[6px]">
+        <div className="flex mt-25 md:mt-[139px]  gap-[10px] py-6 md:py-[3px] px-[6px]">
           <div>
             <img src="/files/Frame1.png" alt="" />
           </div>
@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-[65px] text-white  font-[400] leading-snug adamina-regular pt-5">
+          <h1 className="text-5xl md:text-[65px] text-white  font-[400] leading-snug adamina-regular md:pt-5">
             Beyound Space <br /> Beyound Limit
           </h1>
         </div>
@@ -37,7 +37,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="pt-3 mb-[200px]">
+      <div className="pt-3 pb-12 md:mb-[200px]">
         <img src="/files/heroo.svg" alt="" className=" pt-[49px] w-full  " />
       </div>
     </div>

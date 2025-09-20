@@ -14,14 +14,18 @@ const Team = () => {
           results every day.
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-3 pt-10">
+      <div className="grid grid-cols-4 gap-3 pt-10 mx-auto">
         {astronuts.map((astronut) => {
           return (
             <div
               key={astronut.id}
               className="border-[1.5px]  border-gray-600 rounded-3xl py-[20px] px-[20px]"
             >
-              <img src={astronut.img} alt="" />
+              <img
+                src={astronut.img}
+                alt=""
+                className=" w-full "
+              />
               <h1 className="pt-[20px] text-white adamina-regular">
                 {astronut.name}
               </h1>
