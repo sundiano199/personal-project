@@ -19,11 +19,11 @@ const Hero = () => {
         </div>
         <div>
           <h1 className="text-5xl md:text-[65px] text-white  font-[400] leading-snug adamina-regular md:pt-5">
-            Beyound Space <br /> Beyound Limit
+            Beyond Space <br /> Beyond Limit
           </h1>
         </div>
         <div className='mt-[10px]'>
-          <p className="text-sm text-[var(--faded-white)] leading-[186%] manrope-regular pr-[187px]">
+          <p className="text-sm text-[var(--faded-white)] leading-[186%] manrope-regular pr-[50px] md:pr-[187px]">
             We innovate at the forefront of technology, crafting solutions that
             shape the future.
           </p>

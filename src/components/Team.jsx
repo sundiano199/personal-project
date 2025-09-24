@@ -14,7 +14,7 @@ const Team = () => {
           results every day.
         </p>
       </div>
-      <div className="md:grid grid-cols-4 gap-3 pt-10 mx-auto">
+      <div className="grid md:grid-cols-4 gap-3 pt-10 mx-auto">
         {astronuts.map((astronut) => {
           return (
             <div
