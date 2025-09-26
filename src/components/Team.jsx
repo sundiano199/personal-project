@@ -1,6 +1,7 @@
 import React from "react";
-import { astronuts } from "./data";
+import astronuts from "./data"
 import { useState } from "react";
+
 
 const Team = () => {
   return (

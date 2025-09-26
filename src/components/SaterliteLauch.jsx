@@ -1,10 +1,12 @@
 import React from 'react'
+import k2 from "../assets/files/k2-saterlight.png";
+import markIcon from "../assets/files/CheckCircle.png";
 
 const SaterliteLauch = () => {
   return (
     <div className="bg-black md:grid grid-cols-2 px-4 md:px-[100px] pt-22 gap-5">
       <div>
-        <img src="/files/k2-saterlight.png" alt="" className='w-full' />
+        <img src={k2} alt="" className='w-full' />
       </div>
       <div className="py-[39px] md:pl-[72px] manrope-regular">
         <h1 className="text-white text-5xl adamina-regular md:pr-[125px] leading-snug">
@@ -16,15 +18,15 @@ const SaterliteLauch = () => {
         </p>
         <div className="text-white grid gap-1">
           <div className="flex items-center gap-2 text-sm">
-            <img src="/files/CheckCircle.png" alt="" className="w-4 h-4" />
+            <img src={markIcon} alt="" className="w-4 h-4" />
             <p>Over 100,000 viewers participated live</p>
           </div>
           <div className="flex items-center gap-2 text-sm">
-            <img src="/files/CheckCircle.png" alt="" className="w-4 h-4" />
+            <img src={markIcon} alt="" className="w-4 h-4" />
             <p>Led by Liz.co & NASA scientists.</p>
           </div>
           <div className="flex items-center gap-2 text-sm">
-            <img src="/files/CheckCircle.png" alt="" className="w-4 h-4 className='w-full" />
+            <img src={markIcon} alt="" className="w-4 h-4 className='w-full" />
             <p>Lunar surface data for joint research on future missions.</p>
           </div>
         </div>

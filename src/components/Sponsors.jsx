@@ -1,9 +1,10 @@
 import React from 'react'
+import sponsors from "../assets/files/sponsors-frame.png";
 
 const Sponsors = () => {
   return (
     <div>
-      <img src="/files/sponsors-frame.png" alt="" className='bg-black w-full md:h-full h-15' />
+      <img src={sponsors} alt="" className='bg-black w-full md:h-full h-15' />
     </div>
   )
 }

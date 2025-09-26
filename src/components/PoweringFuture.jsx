@@ -1,5 +1,7 @@
 import React from "react";
-
+import qa1 from "../assets/files/QA1.png";
+import qa2 from "../assets/files/QA2.png";
+import qa3 from "../assets/files/QA3.png";
 const PoweringFuture = () => {
   return (
     <div className="bg-black">
@@ -19,7 +21,7 @@ const PoweringFuture = () => {
 
       <div className="md:grid grid-cols-3 bg-black px-4 md:px-[100px] mx-4 md:mx-0 md:border-0 border-[1px] border-gray-600 rounded-2xl ">
         <div className="p-2 py-3 md:p-[20px]  md:border-[1px]  border-gray-600 rounded-tl-2xl rounded-bl-2xl ">
-          <img src="/files/QA1.png" alt="" className="w-full" />
+          <img src={qa1} alt="" className="w-full" />
           <h2 className="text-white text-xl adamina-regular py-2">
             Space & Saterlite Tech
           </h2>
@@ -29,7 +31,7 @@ const PoweringFuture = () => {
         </div>
         
         <div className="p-2 md:p-[20px] md:border-[1px]  border-gray-600">
-          <img src="/files/QA2.png" alt="" className="w-full" />
+          <img src={qa2} alt="" className="w-full" />
           <h2 className="text-white text-lg adamina-regular py-2">
             Quantum Processing
           </h2>
@@ -38,7 +40,7 @@ const PoweringFuture = () => {
           </p>
         </div>
         <div className="p-2 md:p-[20px] md:border-[1px]  border-gray-600 rounded-tr-2xl rounded-br-2xl">
-          <img src="/files/QA3.png" alt="" className="w-full" />
+          <img src={qa3} alt="" className="w-full" />
           <h2 className="text-white text-lg adamina-regular py-2">
             Biotech Integration
           </h2>

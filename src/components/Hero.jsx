@@ -1,5 +1,7 @@
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
+import customers from "../assets/files/Frame1.png";
+import heroImg from "../assets/files/heroo.svg";
 
 
 
@@ -9,7 +11,7 @@ const Hero = () => {
       <div className="">
         <div className="flex mt-25 md:mt-[139px]  gap-[10px] py-6 md:py-[3px] px-[6px]">
           <div>
-            <img src="/files/Frame1.png" alt="" />
+            <img src={customers} alt="" />
           </div>
           <div>
             <p className="text-[var(--faded-white)] text-[15px] manrope-regular">
@@ -38,7 +40,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="pt-3  pb-12 md:mb-[200px]">
-        <img src="/files/heroo.svg" alt="" className=" pt-[49px] w-full  " />
+        <img src={heroImg} alt="" className=" pt-[49px] w-full  " />
       </div>
     </div>
   );

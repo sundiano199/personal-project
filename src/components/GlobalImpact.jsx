@@ -1,4 +1,5 @@
 import React from 'react'
+import map from "../assets/files/allcountries.png";
 
 const GlobalImpact = () => {
   return (
@@ -9,7 +10,7 @@ const GlobalImpact = () => {
         </h1>
       </div >
       <div>
-        <img src="/files/allcountries.png" alt="" className="bg-black w-full" />
+        <img src={map} alt="" className="bg-black w-full" />
       </div>
     </div>
   );

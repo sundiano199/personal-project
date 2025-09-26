@@ -1,4 +1,6 @@
 import React from 'react'
+import markIcon from "../assets/files/CheckCircle.png";
+import moon from "../assets/files/moon.png";
 
 const MoonWatch = () => {
   return (
@@ -14,21 +16,21 @@ const MoonWatch = () => {
         </p>
         <div className="text-white grid gap-1">
           <div className="flex items-center gap-2 text-sm">
-            <img src="/files/CheckCircle.png" alt="" className="w-4 h-4" />
+            <img src={markIcon} alt="" className="w-4 h-4" />
             <p>Educational Outreach</p>
           </div>
           <div className="flex items-center gap-2 text-sm">
-            <img src="/files/CheckCircle.png" alt="" className="w-4 h-4" />
+            <img src={markIcon} alt="" className="w-4 h-4" />
             <p>Data Collaboration.</p>
           </div>
           <div className="flex items-center gap-2 text-sm">
-            <img src="/files/CheckCircle.png" alt="" className="w-4 h-4" />
+            <img src={markIcon} alt="" className="w-4 h-4" />
             <p>Real-Time Public Engagement</p>
           </div>
         </div>
       </div>
       <div>
-        <img src="/files/moon.png" alt="" className='w-full'/>
+        <img src={moon} alt="" className="w-full" />
       </div>
     </div>
   );

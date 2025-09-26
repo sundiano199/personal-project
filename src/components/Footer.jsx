@@ -1,4 +1,9 @@
 import React from "react";
+import littleIcon from "../assets/files/file.png"
+import twitter from "../assets/files/twitter.png";
+import facebook from "../assets//files/f.png";
+import linkedIn from "../assets/files/in.png";
+import gh from "../assets/files/linkedin.png";
 
 const Footer = () => {
   return (
@@ -7,7 +12,7 @@ const Footer = () => {
         <div className="border-[1px]  border-gray-900  rounded-3xl col-span-1.5">
           <div className=" flex gap-[7px] py-[17px] px-[30px]">
             <img
-              src="/files/file.png"
+              src={littleIcon}
               alt=""
               className="w-[28px] h-[28px] flex justify-center items-center"
             />
@@ -50,16 +55,16 @@ const Footer = () => {
         {/* icons here */}
         <div className="text-center flex md:flex-col justify-between md:gap-2 ">
           <div className="border-[1px] border-gray-900 rounded-3xl py-7 flex items-center justify-center">
-            <img src="/files/twitter.png" alt="" />
+            <img src={twitter} alt="" />
           </div>
           <div className="border-[1px] border-gray-900 rounded-3xl py-7 flex items-center justify-center">
-            <img src="/files/f.png" alt="" />
+            <img src={facebook} alt="" />
           </div>
           <div className="border-[1px] border-gray-900 rounded-3xl py-7 flex items-center justify-center">
-            <img src="/files/in.png" alt="" />
+            <img src={linkedIn} alt="" />
           </div>
           <div className="border-[1px] border-gray-900 rounded-3xl py-7 flex items-center justify-center">
-            <img src="/files/linkedin.png" alt="" />
+            <img src={gh} alt="" />
           </div>
         </div>
       </div>
