@@ -1,7 +1,6 @@
 import React from "react";
-import astronuts from "./data"
+import { astronuts } from "./data";
 import { useState } from "react";
-
 
 const Team = () => {
   return (
@@ -22,11 +21,7 @@ const Team = () => {
               key={astronut.id}
               className="border-[1.5px]  border-gray-600 rounded-3xl py-[20px] px-[20px]"
             >
-              <img
-                src={astronut.img}
-                alt=""
-                className=" w-full  "
-              />
+              <img src={astronut.img} alt="" className=" w-full  " />
               <h1 className="pt-[20px] text-white adamina-regular">
                 {astronut.name}
               </h1>
